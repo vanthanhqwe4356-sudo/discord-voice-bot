@@ -34,4 +34,4 @@ client.on('voiceStateUpdate', (oldState, newState) => {
 });
 
 // Thay 'MTU2ODk4OTIyMDI1MTYzOTg0MA.GOl2MJ.AnXzg7NowF64yfDN3JdPHUcN_6ysgFipeodyrU' bằng Token thật của bot
-client.login('TOKEN_CUA_BAN');
+client.login(process.env.TOKEN);
